@@ -94,3 +94,113 @@
 a {
   text-decoration: none;
   color: #fff; }
+
+
+.card-news,.card-activity{
+  display: flex;
+}
+  
+.news-event{
+  margin-top: 2%;
+  margin-left: 5%;
+}
+
+.block{
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+  color: #fff;
+  background-color: #9747FF;
+  height: 52px;
+  width: 1568px;
+  box-shadow: 0 2px 0 0 black;
+}
+
+.block h2{
+  margin-left: 3%;
+}
+
+.block-low{
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+  color: #fff;
+  background-color: #9747FF;
+  height: 52px;
+  width: 1568px;
+  box-shadow: 0 2px 0 0 black;
+}
+
+
+.block-low h2{
+  margin-left: 3%;
+}
+
+.card{
+  margin-left: 4%;
+  padding: 20px;
+}
+
+.card-img1{
+  border: 1px solid black;
+  height: 200px;
+  width: 300px;
+  background-image: url(/newfile/thanet/image-news/img-news1.svg);
+  background-size: cover;
+}
+
+.card-img2{
+  border: 1px solid black;
+  height: 200px;
+  width: 300px;
+  background-image: url(/newfile/thanet/image-news/img-news2.svg);
+  background-size: cover;
+}
+
+.card-img3{
+  border: 1px solid black;
+  height: 200px;
+  width: 300px;
+  background-image: url(/newfile/thanet/image-news/img-news3.svg);
+  background-size: cover;
+}
+
+.card-img4{
+  border: 1px solid black;
+  height: 200px;
+  width: 300px;
+  background-image: url(/newfile/thanet/image-news/img-news4.svg);
+  background-size: cover;
+}
+
+.card-img5{
+  border: 1px solid black;
+  height: 200px;
+  width: 300px;
+  background-image: url(/newfile/thanet/image-news/img-activity1.svg);
+  background-size: cover;
+}
+
+.card-img6{
+  border: 1px solid black;
+  height: 200px;
+  width: 300px;
+  background-image: url(/newfile/thanet/image-news/img-activity2.svg);
+  background-size: cover;
+}
+
+.card-img7{
+  border: 1px solid black;
+  height: 200px;
+  width: 300px;
+  background-image: url(/newfile/thanet/image-news/img-activity3.svg);
+  background-size: cover;
+}
+
+.card-img8{
+  border: 1px solid black;
+  height: 200px;
+  width: 300px;
+  background-image: url(/newfile/thanet/image-news/img-activity4.svg);
+  background-size: cover;
+}
