@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Prompt&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Prompt', sans-serif; }
+
+.line {
+  width: 728.001px;
+  height: 1px;
+  background-color: black; }
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; }
+
+.info-content {
+  display: flex; }
+
+.left-info {
+  width: 50%; }
+
+.right-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #72409B;
+  border-radius: 10px;
+  width: 50%;
+  height: 906px;
+  flex-shrink: 0; }
