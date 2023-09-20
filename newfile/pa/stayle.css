@@ -1,0 +1,169 @@
+._4,
+._4 * {
+  box-sizing: border-box;
+}
+._4 {
+  background: #ffffff;
+  width: 1920px;
+  height: 1293px;
+  position: relative;
+  overflow: hidden;
+}
+.his-code-scan {
+  color: #000000;
+  text-align: left;
+  font: 190 24px "Inter", sans-serif;
+  position: absolute;
+  left: 1200px;
+  top: 350px;
+}
+.hisF-code-scan {
+  color: #909090;
+  text-align: left;
+  font: 180 18px "Inter", sans-serif;
+  position: absolute;
+  left: 1350px;
+  top: 550px;
+}
+.qr-code-scan {
+  color: #000000;
+  text-align: left;
+  font: 400 48px "Inter", sans-serif;
+  position: absolute;
+  left: 228px;
+  top: 204px;
+}
+.qr-code {
+  color: #313131;
+  text-align: left;
+  font: 400 20px "Inter", sans-serif;
+  position: absolute;
+  left: 237px;
+  top: 284px;
+}
+.qr-code-scan-1 {
+  width: 266px;
+  height: 266px;
+  position: absolute;
+  left: 277px;
+  top: 424px;
+  
+}
+. {
+  color: #000000;
+  text-align: left;
+  font: 400 24px "Inter", sans-serif;
+  position: absolute;
+  left: 1243px;
+  top: 395px;
+  width: 234px;
+  height: 29px;
+}
+.2 {
+  color: #909090;
+  text-align: left;
+  font: 400 24px "Inter", sans-serif;
+  position: absolute;
+  left: 1360px;
+  top: 557px;
+}
+.click-to-scan {
+  color: #000000;
+  text-align: left;
+  font: 400 32px "Inter", sans-serif;
+  position: absolute;
+  left: 328px;
+  top: 800px;
+}
+.rectangle-64 {
+  background: #f3f4f3;
+  width: 1920px;
+  height: 149px;
+  position: absolute;
+  left: 0px;
+  top: 1144px;
+}
+.rectangle-87 {
+  background: linear-gradient(
+      to left,
+      rgba(255, 255, 255, 0.54),
+      rgba(255, 255, 255, 0.54)
+    ),
+    linear-gradient(
+      190.58deg,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(94, 94, 94, 0) 100%
+    ),
+    linear-gradient(to left, #f3f4f3, #f3f4f3);
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 0px 0px 0.2px 0px;
+  width: 1920px;
+  height: 113px;
+  position: absolute;
+  left: 2px;
+  top: 1031px;
+}
+.rectangle-88 {
+  background: #f3f4f3;
+  width: 1920px;
+  height: 149px;
+  position: absolute;
+  left: 0px;
+  top: 1144px;
+}
+.rectangle-89 {
+  background: linear-gradient(
+      to left,
+      rgba(255, 255, 255, 0.54),
+      rgba(255, 255, 255, 0.54)
+    ),
+    linear-gradient(
+      190.58deg,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(94, 94, 94, 0) 100%
+    ),
+    linear-gradient(to left, #f3f4f3, #f3f4f3);
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 0px 0px 0.2px 0px;
+  width: 1920px;
+  height: 113px;
+  position: absolute;
+  left: 2px;
+  top: 1031px;
+}
+.all-rights-reserved-innovative-learning-institute-university-of-phayao {
+  color: #828282;
+  text-align: left;
+  font: 700 16px "Inter", sans-serif;
+  position: absolute;
+  left: 50px;
+  top: 1219px;
+}
+.contact-us {
+  color: #7a44a6;
+  text-align: left;
+  font: 700 20px "Inter", sans-serif;
+  position: absolute;
+  left: 50px;
+  top: 1076px;
+}
+.3 {
+  color: #828282;
+  text-align: left;
+  font: 700 16px "Inter", sans-serif;
+  position: absolute;
+  left: 181px;
+  top: 1080px;
+}
+.contact-us-name {
+  color: #828282;
+  text-align: left;
+  font: 700 20px "Inter", sans-serif;
+  position: absolute;
+  left: 180px;
+  top: 1075px;
+}
