@@ -48,7 +48,8 @@
   position: absolute;
   background: #E5E5E5;
   width: 272px;
-  left: 450px; }
+  left: 450px;
+  z-index: 1; }
 
 .dropdown-aboutme ul {
   display: flex;
@@ -72,12 +73,14 @@
   position: absolute;
   background: #E5E5E5;
   width: 272px;
-  left: 580px; }
+  left: 580px; 
+  z-index: 1;}
 
 .service-system ul {
   display: flex;
   flex-direction: column;
-  list-style: none; }
+  list-style: none; 
+}
 
 .service-system li {
   padding: 12px;
