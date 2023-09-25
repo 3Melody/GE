@@ -1,67 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
 
-    <style>
-      a,
-      button,
-      input,
-      select,
-      h1,
-      h2,
-      h3,
-      h4,
-      h5,
-      * {
-        margin: 0;
-        padding: 0;
-        border: none;
-        text-decoration: none;
-        appearance: none;
-        background: none;
+  <style>
+    a,
+    button,
+    input,
+    select,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    * {
+      margin: 0;
+      padding: 0;
+      border: none;
+      text-decoration: none;
+      appearance: none;
+      background: none;
+    }
+
+    button {
+      cursor: pointer;
+      background-color: #ccc;
+      padding: 10px 20px;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    button:hover {
+      background-color: #decb87;
+    }
+  </style>
+  <script>
+    function updateText() {
+      var textarea = document.getElementById("textarea-84");
+      var rectangle84a = document.querySelector(".rectangle-84a");
+
+      if (textarea.value.trim() !== "") {
+        rectangle84a.style.display = "none";
+      } else {
+        rectangle84a.style.display = "block";
       }
-    </style>
-    <title>Document</title>
-  </head>
-  <body>
+    }
+  </script>
+  <title>Document</title>
+</head>
+<body>
+  
+  <div class="_8">
+    <div class="problems-reports">Problems reports</div>
+    <div class="problems-report1">ปัญหาที่พบบ่อย</div>
+    <div class="problems-report2">รายงานปัญหาที่พบ</div>
+    <div class="rectangle-64"></div>   
+    <div class="rectangle-80"></div>
+    <div class="rectangle-82"></div>
+    <div class="rectangle-83"></div>
+    <div class="rectangle-81"></div>
+    <div class="more">..more</div>
     
-    <div class="_8">
-      <div class="problems-reports">Problems reports</div>
-      <div class="problems-report1">ปัญหาที่พบบ่อย</div>
-      <div class="problems-report2">รายงานปัญหาที่พบ</div>
-      <div class="rectangle-64"></div>   
-      <div class="rectangle-80"></div>
-      <div class="rectangle-82"></div>
-      <div class="rectangle-83"></div>
-      <div class="rectangle-81"></div>
-      <div class="more">..more</div>
-      <div class="rectangle-84"></div>
-      <div class="rectangle-84a">โปรดกรอกปัญหาที่พบ พร้อมรายละเอียด...</div>
-      <div class="rectangle-85"></div>
-      <div class="rectangle-85a">แนบรูปภาพ</div>
-      <img class="paperclip-148399-640-1" src="paperclip-148399-640-1.png" />
-      <div class="rectangle-86"></div>
-      <div class="rectangle-86a">ส่งรายงาน</div>
-      <div class="rectangle-Ta1">ลืมรหัสผ่าน หรือ ไม่สามารถเข้าสู่ระบบได้</div>
-      <div class="rectangle-Ta3">ไม่พบรายวิชาศึกษา</div>
-      <div class="rectangle-Ta4">รายชื่อตกหล่นในงานกิจกรรมนิสิต</div>
-      <div class="rectangle-Ta2">วิธีส่งงานรายวิชาศึกษา</div>
-      <div class="rectangle-642"></div>
-      <div class="rectangle-87"></div>
-      <div class="rectangle-88"></div>
-      <div class="rectangle-89"></div>
-      <div
-        class="all-rights-reserved-innovative-learning-institute-university-of-phayao"
-      >
-        All rights reserved<br />
-        Innovative Learning Institute, University of Phayao
-      </div>
-      <div class="contact-us">Contact us:</div>
-      <div class="contact-us-name">งานส่งเสริมสมรรถนะและทักษะการทำงาน การบริการการศึกษา</div>
+    <input type="text" class="rectangle-84" placeholder="โปรดกรอกปัญหาที่พบ พร้อมรายละเอียด..."></input>
     </div>
-  </body>
+
+    <div class="rectangle-85"></div>
+    <div class="rectangle-85a">แนบรูปภาพ</div>
+    <img class="paperclip-148399-640-1" src="paperclip-148399-640-1.png" />
+    <div class="rectangle-86"></div>
+    <button class="rectangle-86a">ส่งรายงาน</button>
+    <div class="rectangle-Ta1">ลืมรหัสผ่าน หรือ ไม่สามารถเข้าสู่ระบบได้</div>
+    <div class="rectangle-Ta3">ไม่พบรายวิชาศึกษา</div>
+    <div class="rectangle-Ta4">รายชื่อตกหล่นในงานกิจกรรมนิสิต</div>
+    <div class="rectangle-Ta2">วิธีส่งงานรายวิชาศึกษา</div>
+    <div class="rectangle-642"></div>
+    <div class="rectangle-87"></div>
+    <div class="rectangle-88"></div>
+    <div class="rectangle-89"></div>
+    <div class="all-rights-reserved-innovative-learning-institute-university-of-phayao">
+      All rights reserved<br />
+      Innovative Learning Institute, University of Phayao
+    </div>
+    <div class="contact-us">Contact us:</div>
+    <div class="contact-us-name">งานส่งเสริมสมรรถนะและทักษะการทำงาน การบริการการศึกษา</div>
+  </div>
+</body>
 </html>
