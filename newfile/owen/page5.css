@@ -1,0 +1,84 @@
+.main-content {
+    
+}
+
+.hide-content {
+    background-color: #F7A545;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px; /* เพิ่มความเหลี่ยมขอบ 5px */
+    float: right;
+}
+
+.hide-content:hover {
+    background-color: #72409B;
+}
+
+.enter-course {
+    background-color: #8DBF64 ;
+    color: #ffffff;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.enter-course:hover {
+    background-color: #fbff00;
+    color: #000000;
+}
+
+.subject-content {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+.text-content {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.course-heading {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.course-heading h3 {
+    margin: 0;
+}
+
+.teachers {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.teachers li {
+    margin: 3px 0;
+}
+
+.img-subject {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    text-align: center;
+}
+
+.enter-course {
+    background-color: #8DBF64;
+    color: #ffffff;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 5px;
+    margin-top: 10px;
+    align-self: end; /* จัดให้ปุ่มอยู่ด้านล่าง */
+    justify-self: center; /* จัดให้ปุ่มอยู่ตรงกลาง */
+}
+
+a{
+    text-decoration: none;
+}
