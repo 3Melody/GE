@@ -49,24 +49,7 @@
   top: 424px;
   
 }
-. {
-  color: #000000;
-  text-align: left;
-  font: 400 24px "Inter", sans-serif;
-  position: absolute;
-  left: 1243px;
-  top: 395px;
-  width: 234px;
-  height: 29px;
-}
-.2 {
-  color: #909090;
-  text-align: left;
-  font: 400 24px "Inter", sans-serif;
-  position: absolute;
-  left: 1360px;
-  top: 557px;
-}
+
 .click-to-scan {
   color: #000000;
   text-align: left;
@@ -151,14 +134,7 @@
   left: 50px;
   top: 1076px;
 }
-.3 {
-  color: #828282;
-  text-align: left;
-  font: 700 16px "Inter", sans-serif;
-  position: absolute;
-  left: 181px;
-  top: 1080px;
-}
+
 .contact-us-name {
   color: #828282;
   text-align: left;
