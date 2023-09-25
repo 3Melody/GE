@@ -161,13 +161,12 @@
   border-style: solid;
   border-color: #000000;
   border-width: 1.6px;
-  width: 674px;
-  height: 225px;
   position: absolute;
   left: 1124px;
   top: 540px;
   text-align: left;
   vertical-align: top;
+  padding: 10px 500px 200px 10px;
 }
 
 .rectangle-85a {
