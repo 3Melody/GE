@@ -55,13 +55,28 @@
                      <a href="report.html"><li>REPORT</li></a>
                  </ul>
              </div>
-             <div class="main-content">
-                <div>
-                    <button class="hide-content">ซ่อนรายวิชา ⚠</button>
+             <!-- เนื้อหา -->
+             <div>
+                <button class="hide-content" onclick="toggleDropdown()" id="dropdown-button">ซ่อนรายวิชา ⚠</button>
+                <!-- Dropdown สำหรับเลือกรายวิชา -->
+                <div id="dropdown" class="dropdown">
+                    <div class="dropdown-content">
+                        <span class="close" onclick="closeDropdown()">
+                            <h3>เลือกรายวิชาที่ต้องการซ่อน</h3>
+                        </span>
+                        <ul>
+                            <li><button onclick="hideContent('content1')">ซ่อนรายวิชา 1</button></li>
+                            <li><button onclick="hideContent('content2')">ซ่อนรายวิชา 2</button></li>
+                            <li><button onclick="hideContent('content3')">ซ่อนรายวิชา 3</button></li>
+                            <li><button onclick="hideContent('content4')">ซ่อนรายวิชา 4</button></li>
+                        </ul>
+                    </div>
                 </div>
-                <br><br>
-        
-                <div class="subject-content">
+             </div>
+
+             <div class="main-content">
+                <h2 style="margin: 1rem;">สำหรับนิสิตที่เข้าศึกษา ปีการศึกษา 2565</h2>
+                <div class="subject-content" id="content1">
                     <div class="img-subject">
                         <a href="https://ge.up.ac.th/course/view.php?id=617"><img
                                 src="https://ge.up.ac.th/pluginfile.php/193574/course/overviewfiles/%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9E%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B8%B2%E0%B8%97%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B8%B0%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B8%A3%E0%B8%B9%E0%B9%89%E0%B8%95%E0%B8%A5%E0%B8%AD%E0%B8%94%E0%B8%8A%E0%B8%B5%E0%B8%A7%E0%B8%B4%E0%B8%95%20%281%29.jpg"
@@ -115,9 +130,9 @@
                     </div>
                 </div>
         
-                <div class="subject-content">
+                <div class="subject-content" id="content2">
                     <div class="img-subject">
-                        <a class="a-img-subject" href="https://ge.up.ac.th/course/view.php?id=618"><img
+                        <a href="https://ge.up.ac.th/course/view.php?id=618"><img
                                 src="https://ge.up.ac.th/pluginfile.php/193628/course/overviewfiles/002102.png"
                                 alt="002102[1] - ความฉลาดทางดิจิทัล" width="300" height="168"></a>
                         <button class="enter-course">เข้าสู่คอร์สเรียน</button>
@@ -144,7 +159,7 @@
                     </div>
                 </div>
         
-                <div class="subject-content">
+                <div class="subject-content" id="content3">
                     <div class="img-subject">
                         <a href="https://ge.up.ac.th/course/view.php?id=263"><img
                                 src="https://ge.up.ac.th/pluginfile.php/132604/course/overviewfiles/002101.png"
@@ -164,7 +179,7 @@
                     </div>
                 </div>
         
-                <div class="subject-content">
+                <div class="subject-content" id="content4">
                     <div class="img-subject">
                         <a href="https://ge.up.ac.th/course/view.php?id=641"><img
                                 src="https://ge.up.ac.th/pluginfile.php/203554/course/overviewfiles/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%9B%E0%B8%81%E0%B8%A3%E0%B8%B2%E0%B8%A2%E0%B8%A7%E0%B8%B4%E0%B8%8A%E0%B8%B2%20003203.png"
@@ -203,11 +218,10 @@
                         </div>
                     </div>
                 </div>
-        
-            </div>
-     </div>
+             </div>
+        </div>
 
     <script src="src/navbar.js"></script>
+    <script src="src/่page5.js"></script>
 </body>
-
 </html>

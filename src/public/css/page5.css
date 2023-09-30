@@ -1,5 +1,30 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+/* og */
+a{
+    text-decoration: none;
+}
+h2{
+    float: left;
+}
+ul{
+    text-decoration: none;
+}
 
+.main-content {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    height: 100%;
+    border: solid 1px red;
+    max-width: 800px;
+    margin: 0 auto;
+}
 
+/* ปุ่มซ่อนรายวิชา */
 .hide-content {
     background-color: #F7A545;
     color: #000000;
@@ -7,69 +32,34 @@
     padding: 10px 20px;
     border-radius: 5px; /* เพิ่มความเหลี่ยมขอบ 5px */
     float: right;
+    margin: 1rem;
+    position: relative;
+    display: inline-block;
 }
-
 .hide-content:hover {
-    background-color: #72409B;
+    background-color: #c93d1a;
+    color: #ffffff;
 }
-
+/* CSS เริ่มต้นของ Dropdown (ให้เริ่มต้นเป็น display: none) */
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color:hwb(119 16% 45%);
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: -300;
+    float: right;
+    margin: 1rem;
+}
+.dropdown button {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+/* ปุ่มเข้าคอร์สเรียน */
 .enter-course {
     background-color: #8DBF64 ;
-    color: #ffffff;
-    border: none;
-    padding: 10px 50px;
-    border-radius: 5px;
-    margin-top: 10px;
-    margin-left: 10px;
-}
-
-.enter-course:hover {
-    background-color: #fbff00;
-    color: #000000;
-}
-
-.subject-content {
-    display: flex;
-    align-items: flex-start;
-    margin-bottom: 1rem;
-}
-
-.text-content {
-    margin-left: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.course-heading {
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-.course-heading h3 {
-    margin: 0;
-}
-
-.teachers {
-    list-style: none;
-    padding: 0;
-    text-align: left;
-    
-}
-
-.teachers li {
-    margin: 3px 0;
-    
-}
-
-.img-subject {
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-    text-align: center;
-}
-
-.enter-course {
-    background-color: #8DBF64;
     color: #ffffff;
     border: none;
     padding: 10px 50px;
@@ -78,11 +68,50 @@
     align-self: end; /* จัดให้ปุ่มอยู่ด้านล่าง */
     justify-self: center; /* จัดให้ปุ่มอยู่ตรงกลาง */
 }
+.enter-course:hover {
+    background-color: #fbff00;
+    color: #000000;
+}
 
-a{
-    text-decoration: none;
+/* course-text */
+.subject-content {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+    height: 100%;
+    /* border: solid 1px red; */
+    box-sizing: border-box;
+    padding: 10px;
 }
 
 .coursename a{
     color: black;
+}
+.course-heading {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.course-heading h3 {
+    margin: 0;
+}
+.text-content {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.teachers {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+.teachers li {
+    margin: 3px 0;
+}
+
+.img-subject {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    text-align: center;
+    /* border: solid 1px red; */
 }
