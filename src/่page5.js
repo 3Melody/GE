@@ -1,15 +1,11 @@
-// ฟังก์ชันเปิด Popup
 function togglePopup() {
     var popup = document.getElementById('popup');
     popup.style.display = 'block';
 }
-
-// ฟังก์ชันปิด Popup
 function closePopup() {
     var popup = document.getElementById('popup');
     popup.style.display = 'none';
 }
-
 // ฟังก์ชันซ่อนหรือแสดงรายวิชา
 function hideContent(contentId) {
     var content = document.getElementById(contentId);
@@ -18,26 +14,50 @@ function hideContent(contentId) {
     } else {
         content.style.display = 'none';
     }
-    closePopup(); // ปิด Popup หลังจากที่เลือกรายวิชา
+    closePopup();
 }
-// JavaScript สำหรับเปิด/ปิด Dropdown เมื่อคลิกปุ่ม "ซ่อนรายวิชา"
 function toggleDropdown() {
     var dropdown = document.getElementById("dropdown");
     if (dropdown.style.display === "none" || dropdown.style.display === "") {
         dropdown.style.display = "block";
-        dropdown.style.top = "0"; // เปลี่ยน top เพื่อให้ Popup อยู่ด้านบนของปุ่ม
-        dropdown.style.right = "0"; // เพิ่ม right เพื่อให้ Popup อยู่ด้านขวาของปุ่ม
+        dropdown.style.top = "0";
+        dropdown.style.right = "0";
     } else {
         dropdown.style.display = "none";
-        dropdown.style.top = "0"; // เปลี่ยน top เพื่อให้ Popup อยู่ด้านบนของปุ่ม
-        dropdown.style.right = "0"; // เพิ่ม right เพื่อให้ Popup อยู่ด้านขวาของปุ่ม
+        dropdown.style.top = "0";
+        dropdown.style.right = "0";
     }
 }
 
+let draggedElement = null;
 
+function allowDrop(event) {
+    event.preventDefault();
+}
 
+function drag(event) {
+    draggedElement = event.target;
+}
 
-
-
-
+function drop(event) {
+    event.preventDefault();
+    if (draggedElement && event.target.classList.contains('subject-content')) {
+        const droppedElement = event.target;
+        const container = droppedElement.parentNode;
+        
+        // ดึงค่า index ของ draggedElement และ droppedElement
+        const draggedIndex = Array.from(container.children).indexOf(draggedElement);
+        const droppedIndex = Array.from(container.children).indexOf(droppedElement);
+        
+        // สลับตำแหน่งของ draggedElement และ droppedElement
+        if (draggedIndex !== -1 && droppedIndex !== -1) {
+            if (draggedIndex <= droppedIndex) {
+                container.insertBefore(draggedElement, droppedElement.nextSibling);
+            } else {
+                container.insertBefore(draggedElement, droppedElement);
+            }
+        }
+    }
+    draggedElement = null;
+}
 
