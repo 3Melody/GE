@@ -19,14 +19,14 @@ ul{
     /* justify-content: center; */
     /* align-items: center; */
     height: 100%;
-    border: solid 1px red;
+    /* border: solid 1px red; */
     max-width: 800px;
     margin: 0 auto;
     padding-top: 20px;
 }
 
 .playlist-botton{
-    border: solid red 1px;
+    /* border: solid red 1px; */
     height: 168px;
     display: grid;
     place-items: center;
@@ -96,7 +96,7 @@ ul{
     padding-top: 20px;
 }
 .subject-content:hover{
-    background-color: #64bf88ad;
+    background-color: #64bf8867;
 }
 
 .coursename a{
