@@ -50,6 +50,13 @@
         rectangle84a.style.display = "block";
       }
     }
+
+    document.addEventListener("DOMContentLoaded", function() {
+      var rectanglesTa = document.querySelectorAll(".rectangle-Ta1, .rectangle-Ta2, .rectangle-Ta3, .rectangle-Ta4");
+      rectanglesTa.forEach(function(rectangleTa) {
+        rectangleTa.addEventListener("click", updateText);
+      });
+    });
   </script>
   <title>Document</title>
 </head>
@@ -115,7 +122,6 @@
       
           <div class="rectangle-85"></div>
           <div class="rectangle-85a">แนบรูปภาพ</div>
-          <img class="paperclip-148399-640-1" src="newfile/pa2/paperclip-148399-640-1.png" />
           <div class="rectangle-86"></div>
           <button class="rectangle-86a">ส่งรายงาน</button>
           <div class="rectangle-Ta1">ลืมรหัสผ่าน หรือ ไม่สามารถเข้าสู่ระบบได้</div>
